@@ -1,0 +1,79 @@
+site_id = "toffee_and_coffee"
+title = "Toffee and Coffee theme demo"
+baseurl = "https://toffee-and-coffee.github.io"
+copyright = "Copyright 2018, GoAndMake.app"
+
+[menu]
+
+  [[menu.global]]
+  url = "/"
+  name = "Home"
+  menu = "global"
+  identifier = "tutorials"
+  pre = ""
+  post = ""
+  weight = 5.0
+  parent = ""
+
+  [[menu.global]]
+  url = "/about/"
+  name = "About"
+  menu = "global"
+  identifier = "about"
+  pre = ""
+  post = ""
+  weight = 15.0
+  parent = ""
+
+  [[menu.iconmenu]]
+  url = "#"
+  name = "Go Account"
+  menu = "iconmenu"
+  identifier = ""
+  pre = "Go"
+  post = ""
+  weight = 0.0
+  parent = ""
+
+[params]
+accent_color = "hsl(165,35%,45%)"
+accent_color_light = "hsl(165,35%,65%)"
+custom_css = "\n@keyframes slowRightEntry {\n  0% {\n    transform: translateX(-100vw);\n    opacity: 0.3;\n  }\n50% {\n   opacity: .5;\n}\n\n  90% {\n   transform: translateX(0vw);\n   opacity: .8;  \n   }\n  100% {\n    transform: translateX(0vw);\n   opacity: 0.7;\n}\n}\n\n.slowRightEntry {\n  animation: slowRightEntry 10s linear 10;\n  height: 100%;\n  }\n\n\n@keyframes slowRightExit {\n  0% {\n    transform: translateX(0vw);\n   opacity: 1;\n  }\n\n  50% {\n    opacity: .1;\n }\n  100% {\n   opacity: .0;\n    transform: translateX(50vw);\n  }\n}\n\n.slowRightExit {\n  animation: slowRightExit 20s linear 5;\n  height: 100%;\n}\n"
+flex_box_interior_classes = "w-100 w-50-m w-33-l "
+header_class = "bg-primary-color"
+lightness = 45.0
+lightness_dark = 20.0
+lightness_light = 65.0
+lightness_lighter = 80.0
+logo_url = "/images/logos/icon-on-dark.svg"
+mainSections = [
+  "post"
+]
+main_menu_align = "start"
+mainsections = [
+  "post"
+]
+primary_hue = 353.0
+saturation = 35.0
+skip_cover_nav = false
+site_logo_class = "w-100 tc pb3"
+iconmenu_class = "dn"
+gt_theme_name = "Toffee and Coffee"
+gt_author_name = "GoAndMake.app"
+gt_author_url = "https://we.goandmake.app"
+gt_license_name = "CC-BY-NC-4.0"
+gt_license_url = "https://creativecommons.org/licenses/by-nc/4.0/"
+
+  [params.global_section]
+
+  [[params.mobile_menu_button]]
+  label = "Menu"
+  menu = "global"
+
+  [[params.mobile_menu_button]]
+  label = "Account"
+  menu = "iconmenu"
+
+  [params.js_export]
+
+  [params.js_partial]
