@@ -182,21 +182,19 @@ partial = "goandtalk/slides/alternate-two-columns-text-and-image"
     align = "center"
 
     [gmgt_section.data.appearance]
-    section_background = "bg-primary-color-dark"
-    text_color = "white-70"
+    section_background = "bg-primary-color-lighter"
     icon_color = "gold"
     slide_animation = "fadeIn"
 
     [gmgt_section.data.image]
     src = "/images/coffee-beans.jpg"
     responsive = false
+    overlay_background = "bg-white-80"
 
     [gmgt_section.data.base_image]
     responsive = false
 
     [gmgt_section.data.bg_icon]
-    icon_mask = "square"
-    inner_icon = "font"
     inner_icon_transform = "shrink-6"
     bg_icon_display = "dn"
 
@@ -255,15 +253,14 @@ partial = "goandtalk/slides/alternate-two-columns-text-and-image"
     align = "center"
 
     [gmgt_section.data.appearance]
-    section_background = "bg-primary-color-dark"
-    text_color = "white-80"
+    section_background = "bg-white"
+    text_color = "primary-color-lighter"
     icon_color = "gold"
     slide_animation = "fadeIn"
 
     [gmgt_section.data.image]
     responsive = false
-    src = "/images/coffee-deck.jpg"
-    overlay_background = "bg-black-20"
+    overlay_background = "bg-transparent"
 
     [gmgt_section.data.base_image]
     responsive = false
@@ -329,15 +326,15 @@ partial = "goandtalk/slides/alternate-two-columns-text-and-image"
     align = "center"
 
     [gmgt_section.data.appearance]
-    section_background = "bg-primary-color-dark"
-    text_color = "white-80"
+    section_background = "bg-black-20"
+    text_color = "white-90"
     icon_color = "gold"
     slide_animation = "fadeIn"
 
     [gmgt_section.data.image]
     responsive = false
-    src = "/images/coffee-toffee.jpg"
-    overlay_background = "bg-black-30"
+    src = "/images/coffee-beans.jpg"
+    overlay_background = "bg-black-05"
 
     [gmgt_section.data.base_image]
     responsive = false
@@ -732,7 +729,7 @@ partial = "goandtalk/content/text-block-with-contact-form"
   cf_button_border = "b--primary-color"
   display_contact_form = "db"
   title = "Start the Day with Toffee and Coffee"
-  content = "\n## Business Hours\n7am - 3pm Monday to Friday\n\n## Phone\n02 1111 1111\n\n## Address \nSydney CBD, New South Wales, Australia"
+  content = "\n\n## Business Hours\n7am - 3pm Monday to Friday\n\n## Phone\n02 1111 1111\n\n## Address \nSydney CBD, New South Wales, Australia"
 
     [gmgt_section.data.cta]
     url = "#"
@@ -797,6 +794,7 @@ partial = "goandtalk/footer/default_footer"
     nav_link_color = "link-gold"
     legal_link_color = "link-white-80"
 +++
+
 
 
 ## Business Hours
